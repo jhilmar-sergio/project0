@@ -1,21 +1,52 @@
-ul {
+.main-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #444;
 }
-li {
+.main-menu li {
     float: left;
 }
 
-li a {
+.main-menu li a {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
-    background-color: #111;
+.main-menu li a:hover {
+  background-color: #111;
+}
+
+.list1 {
+  list-style-type: none;
+  color: green;
+}
+
+.table-image table, th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-image table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-image th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table-image img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 4px;
+  border: 1px solid #333;
 }
