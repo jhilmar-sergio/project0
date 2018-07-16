@@ -1,3 +1,15 @@
+@media (min-width: 700px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 499px) {
+    body {
+        background-color: blue;
+    }
+}
+
 .main-menu {
   list-style-type: none;
   margin: 0;
